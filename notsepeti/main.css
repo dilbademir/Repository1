@@ -1,0 +1,102 @@
+:root{
+    --main-color:#74b9ff;
+    --accent-color:#fab1a0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arima Madurai', cursive;
+    background-image: linear-gradient(to bottom right, var(--main-color), var(--accent-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.maintitle{
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+.header, .gorevform{
+    min-height: 20vh;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-item{
+    padding: .5rem;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.btn-grv{
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.btn-grv:hover{
+    color: whitesmoke;
+    background-color: var(--accent-color);
+}
+
+.gorevler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gorevler-item{
+    list-style: none;
+    min-width: 40%;
+}
+
+.gorev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    transition: .5s ease-in-out;
+}
+
+.gorev-tanim{
+    flex:1;
+    padding: 0.3rem;
+}
+
+.gorev-btn{
+    outline: none;
+    border:none;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    background-color: #74b9ff;
+}
+
+.gorev-btn-sil{
+    background-color:tomato;
+}
+
+.gorev-btn:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.gorev-tamam{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.far{
+    pointer-events: none;
+}
